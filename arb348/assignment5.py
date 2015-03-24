@@ -357,4 +357,4 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
 #print insert(["[6,9)", "[10,20]"], "[1,7]")
 
 """Question 5"""
-ReturnInsertedResults()
+#ReturnInsertedResults()

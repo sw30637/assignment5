@@ -71,10 +71,4 @@ class interval:
             MixedbracketsErrorhandling()
             DoubleParenthesisErrorHandling()
 
-                       
-        def PrintsInterval(self):
-            """A function that prints the range of the interval if desired."""
-            print '"%s" represents the intergers %s through %s.' % (self.Range, self.FirstNumber, self.LastNumber)     
-
         AllBracketTypeErrorHandling()
-
