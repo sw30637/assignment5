@@ -336,8 +336,25 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
     perform."""
     IntervalsThatPassedInspection = ','.join(str(elements) for elements in insert(ParseIntervalsFromString(IntervalsThatPassedInspection), InsertInterval))
     print IntervalsThatPassedInspection
-    
-ReturnInsertedResults()
-# [-10,-7], (-4,1], [3,6], [8,12]
-#print insert(["[6,9]", "[10,20]"], "[1,3]")
 
+
+"""" Here's where you can check if the function work. """    
+# [-10,-7], (-4,1], [3,6], [8,12]
+
+"""Question 1"""
+#print "Question 1: "
+#SampleInterval= interval("(0,5]")
+
+"""Question 2"""
+#print "Question 2: " + mergeIntervals("[0,1]", "(0,5]")
+
+"""Question 3"""
+#print "Question 3: " 
+#mergeOverlapping(["[1,5]", "[2,6)", "(8,10]", "[8,18]"])
+
+"""Question 4"""
+#print "Question 4: Here is the inserted list: " 
+#print insert(["[6,9)", "[10,20]"], "[1,7]")
+
+"""Question 5"""
+ReturnInsertedResults()
