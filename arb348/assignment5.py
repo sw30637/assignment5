@@ -337,7 +337,7 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
     IntervalsThatPassedInspection = ','.join(str(elements) for elements in insert(ParseIntervalsFromString(IntervalsThatPassedInspection), InsertInterval))
     print IntervalsThatPassedInspection
     
-#ReturnInsertedResults()
+ReturnInsertedResults()
 # [-10,-7], (-4,1], [3,6], [8,12]
 #print insert(["[6,9]", "[10,20]"], "[1,3]")
 
