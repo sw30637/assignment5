@@ -308,7 +308,7 @@ def ReturnInsertedList(IntervalsThatPassedInspection):
         ValidateInsertedInterval(IntervalsThatPassedInspection)
 
 def ValidateInsertedInterval(IntervalsThatPassedInspection):
-    """Looks for exceptions in each of the elelments of the inserted interval."""  
+    """Looks for exceptions in each of the elements of the inserted interval."""  
     while True:
         InsertInterval = GetUsersInsert()
         if InsertInterval=='quit':
