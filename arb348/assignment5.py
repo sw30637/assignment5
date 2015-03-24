@@ -338,8 +338,7 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
     print IntervalsThatPassedInspection
 
 
-"""" Here's where you can check if the function work. """    
-# [-10,-7], (-4,1], [3,6], [8,12]
+"""" Here's where you can check if the functions work. """    
 
 """Question 1"""
 #print "Question 1: "
@@ -357,4 +356,4 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
 #print insert(["[6,9)", "[10,20]"], "[1,7]")
 
 """Question 5"""
-#ReturnInsertedResults()
+ReturnInsertedResults()
