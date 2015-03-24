@@ -72,3 +72,8 @@ class interval:
             DoubleParenthesisErrorHandling()
 
         AllBracketTypeErrorHandling()
+        
+    def __repr__(self):
+        """A function that prints the range of the interval if desired."""
+        return ' "%s" represents the intergers %s through %s.' % (self.Range, self.FirstNumber, self.LastNumber)     
+

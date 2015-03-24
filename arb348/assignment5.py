@@ -341,8 +341,9 @@ def ProduceOutput(IntervalsThatPassedInspection, InsertInterval):
 """" Here's where you can check if the functions work. """    
 
 """Question 1"""
-#print "Question 1: "
+#rint "Question 1: "
 #SampleInterval= interval("(0,5]")
+#print SampleInterval
 
 """Question 2"""
 #print "Question 2: " + mergeIntervals("[0,1]", "(0,5]")
